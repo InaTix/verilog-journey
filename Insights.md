@@ -1,1 +1,1 @@
-!![[graphical notation.png]]
+![УГО](media/graphical_notation.png)
