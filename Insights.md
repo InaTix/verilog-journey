@@ -10,9 +10,6 @@ XNOR за сравнение равенства.
 
 ![Полусумматор](media/half_adder.jpg)
 
-A, B - inputs 1 bit number. 
-sum, carry - output 1 bit number
-Getting sum with a carry: 
-0 + 0  =   **0**,carry **0** <br>0 + 1  =   **1**, carry **0** <br>1 + 0  =   **1**, carry **0**<br>1 + 1  =   **1**, carry **1**
-		|           |
-       XOR      AND
+A, B - inputs 1 bit number. <br>sum, carry - output 1 bit number<br>Getting sum with a carry: 
+0 + 0  =   **0**,carry **0** <br>0 + 1  =   **1**, carry **0** <br>1 + 0  =   **1**, carry **0**<br>1 + 1  =   **1**, carry **1**<br>
+		|           |<br>XOR     AND
