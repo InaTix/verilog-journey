@@ -4,7 +4,8 @@
   <img src="media/graphical_notation.png" width="500">
 </p>  
 
-## XOR logic 
+# XOR logic  
+### For 2 inputs: comparison
 XOR отвечает за сравнение неравенства  
 0 ^ 0 | 0  
 0 ^ 1 | 1 (взаимное исключение)  
@@ -15,7 +16,9 @@ XNOR за сравнение равенства.
 0 ^ 1 | 0  
 1 ^ 0 | 0  
 1 ^ 1 | 1  
-синтаксис XNOR: `~^` или `==`
+синтаксис XNOR: `~^` или `==`  
+### For N-inputs: checks parity  (mod 2)
+XOR outputs 1 if the number of 1s in the inputs is odd.
 
 # Полусумматор (Half Adder)
 
@@ -23,9 +26,9 @@ XNOR за сравнение равенства.
   <img src="media/half_adder.jpg" width="300">
 </p>
 
-A, B - inputs 1 bit number.  
-sum, carry - output 1 bit number  
-Getting sum with a carry:  
+A, B -1-bit  inputs 
+sum, carry - 1-bit outputs
+Getting sum with carry:  
 0 + 0  =  **0**, carry **0**  
 0 + 1  =  **1**, carry **0**  
 1 + 0  =  **1**, carry **0**  
