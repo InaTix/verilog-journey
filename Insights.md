@@ -1,15 +1,34 @@
-![УГО](media/graphical_notation.png)
+# Условное графическое обозначение логических вентилей
 
-XOR отвечает за сравнение неравенства
-0 ^ 0 | 0 <br>0 ^ 1 | 1 (взаимное исключение) <br>1 ^ 0 | 1 (взаимное исключение)<br>1 ^ 1 | 0<br>
-XNOR за сравнение равенства. 
-0 ^ 0 | 1<br>0 ^ 1 | 0<br>1 ^ 0 | 0<br>1 ^ 1 | 1<br>
+<p align="center">
+  <img src="media/graphical_notation.png" width="500">
+</p>  
+
+## XOR logic 
+XOR отвечает за сравнение неравенства  
+0 ^ 0 | 0  
+0 ^ 1 | 1 (взаимное исключение)  
+1 ^ 0 | 1 (взаимное исключение)  
+1 ^ 1 | 0  
+XNOR за сравнение равенства.  
+0 ^ 0 | 1  
+0 ^ 1 | 0  
+1 ^ 0 | 0  
+1 ^ 1 | 1  
 синтаксис XNOR: `~^` или `==`
 
 # Полусумматор (Half Adder)
 
-![Полусумматор](media/half_adder.jpg)
+<p align="center">
+  <img src="media/half_adder.jpg" width="300">
+</p>
 
-A, B - inputs 1 bit number. <br>sum, carry - output 1 bit number<br>Getting sum with a carry: 
-0 + 0  =   **0**,carry **0** <br>0 + 1  =   **1**, carry **0** <br>1 + 0  =   **1**, carry **0**<br>1 + 1  =   **1**, carry **1**<br>
-		|           |<br>XOR     AND
+A, B - inputs 1 bit number.  
+sum, carry - output 1 bit number  
+Getting sum with a carry:  
+0 + 0  =  **0**, carry **0**  
+0 + 1  =  **1**, carry **0**  
+1 + 0  =  **1**, carry **0**  
+1 + 1  =  **1**, carry **1**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XOR&nbsp;&nbsp;&nbsp;&nbsp;AND
