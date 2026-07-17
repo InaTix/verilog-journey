@@ -5,9 +5,7 @@ module top_module (
 );//
     wire cin = 1'b0;
     wire cout1;
-    wire sum1 [15:0];
-    wire sum2 [15:0];
-    
+
     add16 add_first(.a(a[15:0]), .b(b[15:0]), .cin(cin),.sum(sum[15:0]), .cout(cout1));
     add16 add_second(.a(a[31:16]), .b(b[31:16]), .cin(cout1),.sum(sum[31:16]), .cout());
     
